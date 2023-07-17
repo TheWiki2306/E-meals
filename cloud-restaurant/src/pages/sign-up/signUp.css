@@ -1,0 +1,40 @@
+.signup_container{
+    color: white;
+    /* margin-top: 15rem; */
+    padding: 10rem 10rem 15rem 10rem;
+    background: var(--greyText-color);
+}
+
+.signup_text{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+    color: var(--compBg-color);
+    font-weight: 600;
+}
+
+.o{
+    font-size: 1.5em;
+    color: var(--bg-second-color);
+}
+
+.signup_details{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.label{
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    width: 30%; 
+}
+
+.account{
+    text-align: center;
+    font-size: 0.8em;
+    color: var(--bg-color);
+    margin-top: 0.3rem;
+}
+
