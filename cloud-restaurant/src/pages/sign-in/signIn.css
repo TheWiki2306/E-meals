@@ -1,3 +1,23 @@
 .signin_container{
     color:white ;
+    padding: 10rem 10rem 20rem 10rem;
+    background: var(--greyText-color);
+}
+
+.signin_text p{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1rem;
+    color: var(--compBg-color);
+    font-weight: 600;
+}
+
+.recover_password{
+    color: aliceblue;
+    text-align: center;
+}
+
+.log_in{
+    margin-top: 0.2rem;
+    color: var(--other-color);
 }

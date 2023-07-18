@@ -38,3 +38,6 @@
     margin-top: 0.3rem;
 }
 
+.log{
+    color: var(--other-color);
+}

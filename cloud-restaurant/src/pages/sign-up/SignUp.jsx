@@ -18,7 +18,7 @@ const SignUp = () => {
           </label>
         </div> 
           <div className='account'>
-            <p>Already have an account? <Link to="/signin">Log in</Link></p>
+            <p>Already have an account? <Link to="/signin" className='log'>Log in</Link></p>
           </div>
       
     </div>
