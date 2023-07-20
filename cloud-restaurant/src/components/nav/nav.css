@@ -5,10 +5,10 @@
     margin-top: 1rem;
 }
 
-/* .o{
+.o{
     font-size: 1.5em;
-    color: var(--bg-second-color);
-} */
+    /* color: var(--bg-second-color); */
+}
 
 .logo{
     color: white;

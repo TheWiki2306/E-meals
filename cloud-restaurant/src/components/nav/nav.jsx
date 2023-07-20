@@ -6,7 +6,7 @@ import {LiaSignInAltSolid} from 'react-icons/lia';
 const Nav = () => {
   return (
     <nav className='container nav-container'>
-      <Link to="/" clasname='logo'><p><span className='o'>O</span>food.</p></Link>
+      <Link to="/" className='logo'><p><span className='o'>O</span>food.</p></Link>
       
         <div className='navItems'> 
           <Link to='/orders' className='link'> Orders </Link>
