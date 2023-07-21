@@ -1,9 +1,10 @@
-.nav-container{
+.nav_inner_container{
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .o{
@@ -16,7 +17,7 @@
 }
 
 .navItems{
-  font-size: 0.8em;  
+  font-size: 0.9em;  
 }
 
 .link{
@@ -24,7 +25,15 @@
     margin-left: 5rem;
 }
 
-.sign-up{
+.sign_up{
     /* color: var(--bg-second-color); */
-    color:var(--greyText-color)
+    color: var(--greyText-color);
+    font-size: 1.2rem;
+}
+
+.body{
+    font-size: 2rem;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 2rem;
 }
