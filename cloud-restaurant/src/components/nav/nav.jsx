@@ -19,10 +19,6 @@ const Nav = () => {
             <Link to='signup' className='sign_up'><LiaSignInAltSolid/></Link>
           </div>
       </div>
-        <article className='body'>
-          <p>Welcome to <span>O</span>food.</p>
-          <p>can we get your order?</p>
-        </article>
         
     </nav>
   )
