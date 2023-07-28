@@ -7,7 +7,7 @@ const Home = () => {
         <div className='body'>
           <p className='welcome'>Welcome to <span className='o'>O</span>food.</p>
           <p className='request'>can we get your order?</p>
-
+      
           every food you need
         </div>
     </div>
