@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './signUp.css';
 
-const SignUp = () => {
+const  SignUp = () => {
   return (
     <div className='signup_container'>
       <div className='signup_text'>
@@ -16,6 +16,8 @@ const SignUp = () => {
             <input type="text" placeholder='Preferred Username' className='label'/>
             <input type="text" placeholder="Password" className='label'/> 
           </label>
+          <button type='submit' className='submit'>Submit</button>
+
         </div> 
           <div className='account'>
             <p>Already have an account? <Link to="/signin" className='log'>Log in</Link></p>

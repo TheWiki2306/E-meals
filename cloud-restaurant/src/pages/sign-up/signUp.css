@@ -25,10 +25,16 @@
     align-items: center;
 }
 
+
 .label{
     padding: 0.8rem;
     border-radius: 0.5rem;
     width: 30%; 
+}
+
+.submit{
+    width: 50%;
+align-items: center;
 }
 
 .account{
