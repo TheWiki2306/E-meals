@@ -21,7 +21,7 @@
 .signup_details{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
 }
 
@@ -29,12 +29,18 @@
 .label{
     padding: 0.8rem;
     border-radius: 0.5rem;
-    width: 30%; 
+    width: 25%; 
 }
 
 .submit{
-    width: 50%;
-align-items: center;
+    width: 25%;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    color: var(--other-color);
+    background: var(--bg-color);
+    cursor: pointer;
 }
 
 .account{
@@ -47,3 +53,4 @@ align-items: center;
 .log{
     color: var(--other-color);
 }
+

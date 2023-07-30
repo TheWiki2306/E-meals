@@ -8,15 +8,11 @@ import Stocks from "./pages/stock/Stocks";
 import SignUp from "./pages/sign-up/SignUp";
 import SignIn from "./pages/sign-in/SignIn";
 import ForgotPassword from "./pages/forgot password/ForgotPassword";
-import img_1 from "./assets/chef6.png";
 
 function App() {
   return (
     <>
       <Nav/>
-        <div className="img_container">
-          <img src={img_1} alt="" />
-        </div>
         
         <div className="overlay"></div>
         <Routes>   

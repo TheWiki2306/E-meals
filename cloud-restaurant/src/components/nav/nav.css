@@ -25,6 +25,10 @@
     margin-left: 5rem;
 }
 
+.toggle_theme{
+    font-size: 1.2rem;
+}
+
 .sign_up{
     /* color: var(--bg-second-color); */
     color: var(--greyText-color);

@@ -15,8 +15,8 @@ const  SignUp = () => {
             <input type="email" placeholder="Email" className='label'/>
             <input type="text" placeholder='Preferred Username' className='label'/>
             <input type="text" placeholder="Password" className='label'/> 
+            <button type='submit' className='submit'>Submit</button>
           </label>
-          <button type='submit' className='submit'>Submit</button>
 
         </div> 
           <div className='account'>

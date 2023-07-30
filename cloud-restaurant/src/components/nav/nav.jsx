@@ -14,7 +14,9 @@ const Nav = () => {
             <Link to='/station' className='link'> Station </Link>
             <Link to='/stocks' className='link'> Stock </Link>
           </div>
-
+          <div className='toggle_theme'>
+            <i class='fas fa-toggle-on'></i>
+          </div>
           <div>
             <Link to='signup' className='sign_up'><LiaSignInAltSolid/></Link>
           </div>
