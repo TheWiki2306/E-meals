@@ -1,11 +1,22 @@
 import React from 'react';
-import './nav.css';
 import { Link } from 'react-router-dom';
 import {LiaSignInAltSolid} from 'react-icons/lia';
+import './nav.css';
+import useLocalStorage from 'use-local-storage';
+
+
 
 const Nav = () => {
+
+  const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light')
+
+  const switchTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+  }
+
   return (
-    <nav className='container nav_container'>
+    <nav className='container nav_container' data-theme={theme}>
       <div className='nav_inner_container'>
         <Link to="/" className='logo'><p><span className='o'>O</span>food.</p></Link>
       
@@ -14,8 +25,9 @@ const Nav = () => {
             <Link to='/station' className='link'> Station </Link>
             <Link to='/stocks' className='link'> Stock </Link>
           </div>
+        
           <div className='toggle_theme'>
-            <i class='fas fa-toggle-on'></i>
+            <i onClick={switchTheme} class='fas fa-toggle-on'></i>
           </div>
           <div>
             <Link to='signup' className='sign_up'><LiaSignInAltSolid/></Link>

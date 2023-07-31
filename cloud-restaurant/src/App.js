@@ -9,9 +9,12 @@ import SignUp from "./pages/sign-up/SignUp";
 import SignIn from "./pages/sign-in/SignIn";
 import ForgotPassword from "./pages/forgot password/ForgotPassword";
 
+
 function App() {
+ 
   return (
-    <>
+    <div className="app">
+    
       <Nav/>
         
         <div className="overlay"></div>
@@ -24,7 +27,9 @@ function App() {
           <Route path="/signin" element={<SignIn/>}/>
           <Route path="/forgot-password" element={<ForgotPassword/>}/>
         </Routes>
-    </>
+
+
+    </div>
     
   );
 }
