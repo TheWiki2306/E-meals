@@ -16,7 +16,7 @@ function App() {
   const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light')
 
   const switchTheme = () => {
-    const newTheme = theme === 'dark' ? 'light' : 'dark';
+    const newTheme = theme === 'light' ? 'dark' : 'light';
     setTheme(newTheme);
   }
 
