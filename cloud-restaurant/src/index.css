@@ -19,7 +19,7 @@ html{
   /* --bg-color: rgb(15, 15, 17); */
   --bg-color: white;
   --bg-second-color: rgb(87, 87, 112);
-  --text-color: white;
+  --text-color: black;
   --greyText-color: rgb(112, 112, 112);
   --compBg-color: rgb(54, 52, 52);
   --other-color: rgb(167, 230, 219);
@@ -35,8 +35,8 @@ body {
   
 }
 
-[data-theme='light']{
-   --bg-color:white; 
+[data-theme='dark']{
+   --bg-color:black; 
    --bg-second-color: rgb(87, 87, 112);
    --text-color: white;
    --greyText-color: rgb(112, 112, 112);
