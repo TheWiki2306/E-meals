@@ -1,0 +1,8 @@
+.restaurants_container{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(1fr, 4);
+}
+.restaurants{
+    
+}
