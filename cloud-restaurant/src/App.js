@@ -14,18 +14,9 @@ function App() {
 
   const [theme, setTheme] = useLocalStorage('theme' ? 'light' : 'dark')
 
-  const switchTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme);
-  }
-
   return (
     <div className="app" data-theme={theme}>
-    
       <Nav/>       
-        <div className="theme_toggle"> 
-          <i onClick={switchTheme} class='fas fa-toggle-on'></i>
-        </div>
         <Routes>   
           <Route path="/" element={<Home/>}/>
           <Route path="/orders" element={<Orders/>}/>

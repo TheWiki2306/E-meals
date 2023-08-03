@@ -30,9 +30,8 @@ html{
 }
 
 body {
-  /* background-color: linear-gradient(to top right, red, green); */
-  background: var(--bg-color);
-  
+  /* background-color: linear-gradient(to top right, red, green); */  
+  /* background: black; */
 }
 
 [data-theme='dark']{
@@ -46,10 +45,13 @@ body {
 
 .app{
   background: var(--bg-color);
+  height: 100vh;
+  padding-top: 1rem;
 }
 
 .theme_toggle i{
   font-size: 1.5rem;
+  color: red;
 }
 
 .container{
