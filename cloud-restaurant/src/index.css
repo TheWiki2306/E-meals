@@ -35,19 +35,22 @@ body {
   
 }
 
-/* [data-theme='dark']{
+[data-theme='dark']{
    --bg-color:black; 
    --bg-second-color: rgb(87, 87, 112);
    --text-color: white;
    --greyText-color: rgb(112, 112, 112);
    --compBg-color: rgb(54, 52, 52);
    --other-color: rgb(167, 230, 219);
-} */
+}
 
-/* .app{
+.app{
   background: var(--bg-color);
-} */
+}
 
+.theme_toggle i{
+  font-size: 1.5rem;
+}
 
 .container{
   width: var(--large-container);

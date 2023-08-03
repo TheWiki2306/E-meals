@@ -8,14 +8,24 @@ import Stocks from "./pages/stock/Stocks";
 import SignUp from "./pages/sign-up/SignUp";
 import SignIn from "./pages/sign-in/SignIn";
 import ForgotPassword from "./pages/forgot password/ForgotPassword";
+import useLocalStorage from "use-local-storage";
 
 function App() {
 
+  const [theme, setTheme] = useLocalStorage('theme' ? 'light' : 'dark')
+
+  const switchTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
+  }
+
   return (
-    <div className="app">
+    <div className="app" data-theme={theme}>
     
-      <Nav/>        
-  
+      <Nav/>       
+        <div className="theme_toggle"> 
+          <i onClick={switchTheme} class='fas fa-toggle-on'></i>
+        </div>
         <Routes>   
           <Route path="/" element={<Home/>}/>
           <Route path="/orders" element={<Orders/>}/>
