@@ -1,8 +1,8 @@
 .body{
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: var(--text-color);
     text-align: center;
-    /* margin-top: 2rem; */
+    margin-top: 5rem;
 }
 
 .welcome{
@@ -10,5 +10,5 @@
 }
 
 .request{
-    
+   font-size: 2rem; 
 }

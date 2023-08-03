@@ -12,22 +12,22 @@ const Orders = () => {
       <p>Restaurants</p>
       <div lastname='restaurants_container'>
         <article classname='restaurants'>
-          <p>{BiFoodMenu}</p>
+          <i>{BiFoodMenu}</i>
           <h4>French fry restaurant</h4>
           <small>Ikeja, Lagos State.</small>
         </article>
         <article classname='restaurants'>
-          <p>{GiOpenedFoodCan}</p>
+          <i>{GiOpenedFoodCan}</i>
           <h4>M&P restaurant</h4>
           <small>Ikeja, Lagos State.</small>
         </article>
         <article classname='restaurants'>
-          <p>{PiBowlFoodLight}</p>
+          <i>{PiBowlFoodLight}</i>
           <h4>Mark Pasta</h4>
           <small>Ikeja, Lagos State.</small>
         </article>
         <article classname='restaurants'>
-          <p>{MdFastfood}</p>
+          <i>{MdFastfood}</i>
           <h4>Daily paper restaurant</h4>
           <small>Ikeja, Lagos State.</small>
         </article>

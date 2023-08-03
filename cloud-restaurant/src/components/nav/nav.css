@@ -13,7 +13,7 @@
 }
 
 .logo{
-    color: white;
+    color: var(--greyText-color);
 }
 
 .navItems{
