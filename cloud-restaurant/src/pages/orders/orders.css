@@ -2,10 +2,20 @@
     margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* gap: 2rem; */
+    gap: 1rem;
 }
+
 .restaurants{
-    background: var(--other-color);
-    width: 15rem;
-    height: 8rem;
+    /* background: var(--other-color); */
+    background: var(--alt-color);
+    height: 12rem;
+    padding: 3.5rem 0 3.5rem 0;
+    border-radius: 0.8rem;
+    text-align: center;
+}
+
+.restaurants:hover{
+    background: var(--bg-color);
+    border: 1px var(--other-color) solid;
+    transition: 0.3s ease;
 }

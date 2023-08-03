@@ -3,6 +3,7 @@ import { BiFoodMenu } from 'react-icons/bi';
 import { GiOpenedFoodCan } from 'react-icons/gi';
 import { PiBowlFoodLight } from 'react-icons/pi';
 import { MdFastfood } from 'react-icons/md';
+import { MdEmojiFoodBeverage } from 'react-icons/md';
 import './orders.css';
 
 const Orders = () => {
@@ -30,6 +31,11 @@ const Orders = () => {
           <h4>Daily paper restaurant</h4>
           <small>Ikeja, Lagos State.</small>
         </article>
+        {/* <article className='restaurants'>
+          <i><MdEmojiFoodBeverage /></i>
+          <h4>Princess Elle restaurant</h4>
+          <small>Ikeja, Lagos State.</small>
+        </article> */}
       </div>
     </div>
   )
