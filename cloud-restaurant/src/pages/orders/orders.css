@@ -1,8 +1,11 @@
 .restaurants_container{
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(1fr, 4);
+    grid-template-columns: repeat(4, 1fr);
+    /* gap: 2rem; */
 }
 .restaurants{
-    
+    background: var(--other-color);
+    width: 15rem;
+    height: 8rem;
 }

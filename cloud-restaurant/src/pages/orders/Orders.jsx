@@ -7,27 +7,26 @@ import './orders.css';
 
 const Orders = () => {
   return (
-    <div>
-
+    <div className='container orders_container'>
       <p>Restaurants</p>
-      <div lastname='restaurants_container'>
-        <article classname='restaurants'>
-          <i>{BiFoodMenu}</i>
+      <div className='restaurants_container'>
+        <article className='restaurants'>
+          <i><BiFoodMenu /></i>
           <h4>French fry restaurant</h4>
           <small>Ikeja, Lagos State.</small>
         </article>
-        <article classname='restaurants'>
-          <i>{GiOpenedFoodCan}</i>
+        <article className='restaurants'>
+          <i><GiOpenedFoodCan /></i>
           <h4>M&P restaurant</h4>
           <small>Ikeja, Lagos State.</small>
         </article>
-        <article classname='restaurants'>
-          <i>{PiBowlFoodLight}</i>
+        <article className='restaurants'>
+          <i><PiBowlFoodLight /></i>
           <h4>Mark Pasta</h4>
           <small>Ikeja, Lagos State.</small>
         </article>
-        <article classname='restaurants'>
-          <i>{MdFastfood}</i>
+        <article className='restaurants'>
+          <i><MdFastfood /></i>
           <h4>Daily paper restaurant</h4>
           <small>Ikeja, Lagos State.</small>
         </article>

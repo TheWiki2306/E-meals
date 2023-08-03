@@ -16,7 +16,9 @@ const Nav = () => {
    return (
     <nav className='container nav_container' data-theme={theme}>
       <div className='nav_inner_container'>
-        <Link to="/" className='logo'><p><span className='o'>O</span>food.</p></Link>
+        <Link to="/" className='logo'>
+          <p><span className='o'>O</span>food.</p>
+        </Link>
       
           <div className='navItems'> 
             <Link to='/orders' className='link'> Orders </Link>
