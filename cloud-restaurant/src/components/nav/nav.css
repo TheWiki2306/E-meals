@@ -2,6 +2,7 @@
     color: white;
     display: flex;
     justify-content: space-between;
+    /* width: 100%; */
     align-items: center;
     /* margin-top: 1rem; */
     padding-bottom: 1rem;
@@ -37,7 +38,10 @@
 
 .sign_up{
     /* color: var(--bg-second-color); */
-    color: var(--greyText-color);
+    color: rgb(29, 29, 43);
     font-size: 1.2rem;
+    background-color: var(--alt-color);
+    padding: 0.5rem 0.5rem 0.2rem 0.5rem;
+    border-radius: 0.6rem;
 }
 
