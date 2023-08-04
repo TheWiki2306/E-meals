@@ -11,6 +11,7 @@
 .signin_text p{
     text-align: center;
     font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 1rem;
     color: var(--compBg-color);
     font-weight: 600;
@@ -25,7 +26,7 @@
 
 .log_in{
     margin-top: 0.2rem;
-    color: var(--other-color);
+    color: var(--alt-color);
 }
 
 .create_account{
@@ -34,5 +35,5 @@
 }
 
 .signup_link{
-    color: var(--other-color);
+    color: var(--alt-color);
 }

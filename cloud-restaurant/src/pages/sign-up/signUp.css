@@ -37,6 +37,7 @@
 .submit{
     width: 25%;
     font-size: 1rem;
+    font-weight: 300;
     padding: 0.8rem;
     border-radius: 0.5rem;
     align-items: center;
@@ -53,6 +54,6 @@
 }
 
 .log{
-    color: var(--other-color);
+    color: var(--alt-color);
 }
 
