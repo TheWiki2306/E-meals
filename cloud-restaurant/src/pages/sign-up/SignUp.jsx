@@ -6,7 +6,7 @@ const  SignUp = () => {
   return (
     <div className='signup_container'>
       <div className='signup_text'>
-        <p>Create an account with <span className='o'>O</span>food</p>
+        <p>Create an Account</p>
       </div>
         <div>
           <label className='signup_details'>

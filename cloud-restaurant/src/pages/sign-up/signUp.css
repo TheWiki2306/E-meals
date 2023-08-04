@@ -7,9 +7,11 @@
 
 .signup_text{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     margin-bottom: 1rem;
-    color: var(--compBg-color);
+    /* color: var(--compBg-color); */
+    color: var(--alt-color);
     font-weight: 600;
 }
 
@@ -38,8 +40,8 @@
     padding: 0.8rem;
     border-radius: 0.5rem;
     align-items: center;
-    color: var(--other-color);
-    background: var(--bg-color);
+    color: var(--compBg-color);
+    background: var(--alt-color);
     cursor: pointer;
 }
 
