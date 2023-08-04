@@ -1,5 +1,15 @@
+.orders_container{
+    margin-top: 5rem;
+}
+
+.orders_container p{
+    color: var(--greyText-color);
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
 .restaurants_container{
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
