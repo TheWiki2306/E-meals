@@ -9,7 +9,7 @@ import './orders.css';
 const Orders = () => {
   return (
     <div className='container orders_container'>
-      <p>Restaurants</p>
+      <p>Restaurants</p>            
       <div className='restaurants_container'>
         <article className='restaurants'>
           <i><BiFoodMenu /></i>

@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {LiaSignInAltSolid} from 'react-icons/lia';
 import useLocalStorage from 'use-local-storage';
+import {LiaSignInAltSolid} from 'react-icons/lia';
+import { BsToggleOn } from 'react-icons/bs';
 import './nav.css';
 
 
@@ -31,7 +32,7 @@ const Nav = () => {
           </div>
 
           <div className="theme_toggle"> 
-            <i onClick={switchTheme} class='fas fa-toggle-on'></i>
+            <i onClick={switchTheme}><BsToggleOn /></i>
           </div>
       </div>
         
