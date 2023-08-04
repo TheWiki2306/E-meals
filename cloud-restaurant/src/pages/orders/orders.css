@@ -29,3 +29,13 @@
     border: 1px var(--other-color) solid;
     transition: 0.3s ease;
 }
+
+.restaurants i{
+    font-size: 1.8rem;
+    color: var(--compBg-color);
+    /* color: brown; */
+}
+
+.restaurants h4{
+    color: var(--compBg-color);
+}
