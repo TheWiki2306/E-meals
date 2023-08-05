@@ -17,22 +17,30 @@
    font-size: 2rem; 
 }
 
-.how{
+.how.container{
     margin-top: 10rem;
     color: var(--compBg-color);
+    background: var(--alt-color);
+    width: 100%;
 }
 
 .how h4{
-    margin-bottom: 2rem;
+    margin-bottom: 3.5rem;
+    font-size: 0.8em;
+    text-align: center;
 }
 
 .how_container{
     display: flex;
-    gap: 2rem;
+    justify-content: space-between;
 }
 
 .how_container i{
+    color: var(--greyText-color);
+}
 
+.location i{
+    color: red;
 }
 
 .location h5{
@@ -40,5 +48,5 @@
 }
 
 .home_container small{
-    font-size: 0.8em;
+    font-size: 0.3em;
 }
