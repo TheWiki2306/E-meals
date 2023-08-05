@@ -1,4 +1,7 @@
 import React from 'react';
+import { GrLocation } from 'react-icons/gr';
+import { MdProductionQuantityLimits } from 'react-icons/md';
+import { TbTruckDelivery } from 'react-icons/tb';
 import './home.css';
 
 const Home = () => {
@@ -12,17 +15,17 @@ const Home = () => {
             <h4>How it Works</h4>
             <div className='how_container'>
               <article className='location'>
-                <i></i>
+                <i><GrLocation /></i>
                 <h5>Set delivery location</h5>
                 <small>Set the location for your delivery to be made</small>
               </article>
               <article className='products'>
-                <i></i>
+                <i><MdProductionQuantityLimits /></i>
                 <h5>Choose the product</h5>
                 <small>Set the location for your delivery to be made</small>
               </article>
               <article className='delivery'>
-                <i></i>
+                <i><TbTruckDelivery /></i>
                 <h5>Receive it at your doorstep</h5>
                 <small>Set the location for your delivery to be made</small>
               </article>

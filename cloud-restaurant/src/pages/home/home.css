@@ -1,3 +1,7 @@
+.home_container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .body{
     font-size: 2.5rem;
     color: var(--text-color);
@@ -11,4 +15,30 @@
 
 .request{
    font-size: 2rem; 
+}
+
+.how{
+    margin-top: 10rem;
+    color: var(--compBg-color);
+}
+
+.how h4{
+    margin-bottom: 2rem;
+}
+
+.how_container{
+    display: flex;
+    gap: 2rem;
+}
+
+.how_container i{
+
+}
+
+.location h5{
+    font-size: 0.8em;
+}
+
+.home_container small{
+    font-size: 0.8em;
 }
