@@ -17,11 +17,10 @@
    font-size: 2rem; 
 }
 
-.how.container{
+.how{
     margin-top: 10rem;
     color: var(--compBg-color);
     background: var(--alt-color);
-    width: 100%;
 }
 
 .how h4{

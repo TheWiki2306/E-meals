@@ -6,11 +6,11 @@ import './home.css';
 
 const Home = () => {
   return (
-    <div className='container home_container'>
-        <div className='body'>
+    <div className='home_container'>
+        <div className='container body'>
           <p className='welcome'>Welcome to <span className='o'>O</span>food.</p>
           <p className='request'>can we get your order?</p>
-
+        </div>
           <div className='how'>
             <h4>How it Works</h4>
             <div className='how_container'>
@@ -31,7 +31,7 @@ const Home = () => {
               </article>
             </div>
           </div>
-        </div>
+        {/* </div> */}
     </div>
   )
 }
