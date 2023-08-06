@@ -33,8 +33,9 @@ const Home = () => {
               </article>
             </div>
           </div>
+          <Vendor />
           <Routes>
-            <Routes path='/vendor_signup' elements={<Vendor/>}/>
+            <Route path='/vendor_signup' elements={<Vendor/>}/>
         </Routes>
         {/* </div> */}
     </div>
