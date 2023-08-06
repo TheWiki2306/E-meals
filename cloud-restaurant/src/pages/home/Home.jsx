@@ -1,4 +1,6 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Vendor from '../../components/vendors_signup/vendor';
 import { GrLocation } from 'react-icons/gr';
 import { MdProductionQuantityLimits } from 'react-icons/md';
 import { TbTruckDelivery } from 'react-icons/tb';
@@ -31,6 +33,9 @@ const Home = () => {
               </article>
             </div>
           </div>
+          <Routes>
+            <Routes path='/vendor_signup' elements={<Vendor/>}/>
+        </Routes>
         {/* </div> */}
     </div>
   )
