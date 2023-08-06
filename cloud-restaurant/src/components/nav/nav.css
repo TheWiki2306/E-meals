@@ -34,6 +34,7 @@
 .link:hover{
     background: var(--bg-color);
     border: 1px var(--other-color) solid;
+    color: var(--text-color);
 }
 
 .sign_up{

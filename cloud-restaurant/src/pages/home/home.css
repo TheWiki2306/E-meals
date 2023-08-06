@@ -21,31 +21,34 @@
     margin-top: 10rem;
     color: var(--compBg-color);
     background: var(--alt-color);
+    padding: 5rem;
 }
 
 .how h4{
     margin-bottom: 3.5rem;
-    font-size: 0.8em;
+    font-size: 2em;
     text-align: center;
 }
 
 .how_container{
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    text-align: center;
 }
 
 .how_container i{
     color: var(--greyText-color);
+    font-size: 3.5rem;
+    align-self: flex-end;
 }
 
-.location i{
-    color: red;
+.how_container h5{
+    font-size: 1.8em;
 }
 
-.location h5{
+.how_container small{
     font-size: 0.8em;
 }
 
-.home_container small{
-    font-size: 0.3em;
-}
+
