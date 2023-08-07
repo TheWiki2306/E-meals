@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './vendor_signup.css';
 
-const Vendor_signup = () => {
+const VendorSignup = () => {
   return (
     <div>
-      <article>
+      <article className='ven'>
         <label>Name</label>
         <input type="text" />
       </article>
@@ -11,4 +12,4 @@ const Vendor_signup = () => {
   )
 }
 
-export default Vendor_signup;
+export default VendorSignup;

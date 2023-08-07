@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import VendorSignup from '../vendor_signup/Vendor_signup';
 import Vendor from '../../components/vendors_signup/vendor';
 import { GrLocation } from 'react-icons/gr';
 import { MdProductionQuantityLimits } from 'react-icons/md';
@@ -8,6 +9,10 @@ import './home.css';
 
 const Home = () => {
   return (
+    <>
+      <Routes>
+      <Route path='/vendor_signup' element={<VendorSignup />}/>
+    </Routes>
     <div className='home_container'>
         <div className='container body'>
           <p className='welcome'>Welcome to <span className='o'>O</span>food.</p>
@@ -34,12 +39,10 @@ const Home = () => {
             </div>
           </div>
           <Vendor />
-          <Routes>
-            <Route path='/vendor_signup' elements={<Vendor/>}/>
-        </Routes>
         {/* </div> */}
     </div>
+    </>
+
   )
 }
-
 export default Home;

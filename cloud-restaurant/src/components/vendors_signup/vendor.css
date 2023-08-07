@@ -1,0 +1,29 @@
+.vendor_container{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.vendor_container h4{
+    font-size: 2em;
+}
+
+.vendor_container small{
+    
+}
+
+.signupLink{
+    margin-top: 3rem;
+}
+
+.vendor_signup{
+    background: var(--alt-color);
+    color: var(--compBg-color);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.3rem;
+}
+
+.vendor_signup:hover{
+    background: var(--bg-color);
+    border: 1px var(--other-color) solid;
+    color: var(--text-color);
+}
