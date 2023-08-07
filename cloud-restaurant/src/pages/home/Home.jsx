@@ -10,9 +10,6 @@ import './home.css';
 const Home = () => {
   return (
     <>
-      <Routes>
-      <Route path='/vendor_signup' element={<VendorSignup />}/>
-    </Routes>
     <div className='home_container'>
         <div className='container body'>
           <p className='welcome'>Welcome to <span className='o'>O</span>food.</p>
@@ -41,6 +38,9 @@ const Home = () => {
           <Vendor />
         {/* </div> */}
     </div>
+     <Routes>
+     <Route path='/vendor_signup' element={<VendorSignup />}/>
+   </Routes>
     </>
 
   )
