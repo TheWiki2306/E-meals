@@ -41,6 +41,9 @@ const Home = () => {
      <Routes>
      <Route path='/vendor_signup' element={<VendorSignup />}/>
    </Routes>
+   <footer>
+    <p>&copy; Copyright, Ofood 2023</p>
+   </footer>
     </>
 
   )
