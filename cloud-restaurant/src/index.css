@@ -17,7 +17,7 @@ html{
 
 :root{
   /* --bg-color: rgb(15, 15, 17); */
-  --bg-color: white;
+  --bg-color: #f1f5f9;
   --bg-second-color: rgb(87, 87, 112);
   --text-color: black;
   --greyText-color: rgb(112, 112, 112);

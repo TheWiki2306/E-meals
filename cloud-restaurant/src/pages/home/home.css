@@ -17,6 +17,17 @@
    font-size: 2rem; 
 }
 
+.link{
+    /* color: var(--bg-second-color); */
+    font-family: 600;
+    /* color: rgb(29, 29, 43); */
+    color: var(--color-bg);
+    background: var(--alt-color);
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 0.3rem;
+    /* margin-left: 5rem; */
+}
+
 .how{
     margin-top: 10rem;
     color: var(--compBg-color);

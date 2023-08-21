@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import VendorSignup from '../vendor_signup/Vendor_signup';
 import Vendor from '../../components/vendors_signup/vendor';
 import { GrLocation } from 'react-icons/gr';
@@ -14,6 +15,9 @@ const Home = () => {
         <div className='container body'>
           <p className='welcome'>Welcome to <span className='o'>O</span>food.</p>
           <p className='request'>can we get your order?</p>
+          <div>
+            <Link to='/orders' className='link'> Orders </Link>
+          </div>
         </div>
           <div className='how'>
             <h4>How it Works</h4>
